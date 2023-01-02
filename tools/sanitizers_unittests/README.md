@@ -1,6 +1,3 @@
-LLVM sanitizers smoke tests
----------------------------
-The only purpose of this binary is to verify that the various build configs for
-sanitizers (`is_asan`, `is_lsan`, `is_msan`, `is_tsan`, `is_ubsan`) do actually
-work and spot violations, rather than unconditionally succeeding if we mess up
-the build config.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc6cc316bcdc9e23f8ac44fdb2a54f356278719a9b257d0230a86f9f11490bb7
+size 313

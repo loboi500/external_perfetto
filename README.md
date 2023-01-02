@@ -1,9 +1,3 @@
-# Perfetto - System profiling, app tracing and trace analysis
-
-Perfetto is a production-grade open-source stack for performance
-instrumentation and trace analysis. It offers services and libraries and for
-recording system-level and app-level traces, native + java heap profiling, a
-library for analyzing traces using SQL and a web-based UI to visualize and
-explore multi-GB traces.
-
-See https://perfetto.dev/docs or the /docs/ directory for documentation.
+version https://git-lfs.github.com/spec/v1
+oid sha256:eacb4f987c47151b8fc05d3a7c6e096e7c24047e95273c2a77103f0b5d797b4d
+size 456

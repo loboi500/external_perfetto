@@ -1,16 +1,3 @@
-import("../../../gn/perfetto.gni")
-import("../../../gn/proto_library.gni")
-import("sources.gni")
-
-perfetto_proto_library("chrome_track_event_@TYPE@") {
-  proto_generators = [ "descriptor" ]
-  sources = chrome_track_event_sources
-  generate_descriptor = "chrome_track_event.descriptor"
-  deps = [ "../../perfetto/trace/track_event:source_set" ]
-
-  # When rolled into Chrome, extension descriptor is going to be linked into
-  # binary, therefore increasing its size. Including imports means that the
-  # full TrackEvent descriptor is going to be included as well, increasing the
-  # binary size unnecessarily. Therefore, exclude_imports is used.
-  exclude_imports = true
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c873e93643c2c2180528997c428391ff379cfd491d895a8b15af8d3477b4adb
+size 671

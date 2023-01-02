@@ -1,4 +1,3 @@
-monorail {
-  component: "Speed>Tracing"
-}
-team_email: "tracing@chromium.org"
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e834b0e02042804b51268a07b7d984930e1d58cd4c288da8268abc30b1963c9
+size 77

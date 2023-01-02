@@ -1,4 +1,3 @@
-# For depot_tools / git cl upload workflow.
-GERRIT_HOST: True
-CODE_REVIEW_SERVER: https://android-review.googlesource.com
-PROJECT: platform/external/perfetto
+version https://git-lfs.github.com/spec/v1
+oid sha256:58ffcacba7bfed26c954477597a7b63b43029fc908101908f026a7dca2dcc99b
+size 158

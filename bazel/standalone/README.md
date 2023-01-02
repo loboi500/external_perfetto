@@ -1,25 +1,3 @@
-# Perfetto standalone Bazel config
-
-This directory is only used in standalone builds.
-The WORKSPACE aliases this directory to @perfetto_cfg.
-
-Bazel-based embedders are supposed to:
-
-### 1. Have a (modified) copy of perfetto_cfg.bzl in their repo
-
-```
-myproject/
-  build/
-    perfetto_overrides/
-      perfetto_cfg.bzl
-```
-
-### 2. Have a repository rule that maps the directory to @perfetto_cfg
-
-E.g in myproject/WORKSPACE
-```
-local_repository(
-    name = "perfetto_cfg",
-    path = "build/perfetto_overrides",
-)
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:5909c33e0541014ad1fdc3edb7f9d14aeb5154b2cca897903ce1d8fdc86646f2
+size 516

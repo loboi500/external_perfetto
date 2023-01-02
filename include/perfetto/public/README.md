@@ -1,3 +1,3 @@
-This folder contains the deprecated consumer API. The only client of this
-is iorap in the Android tree. For any new use-case use the new Perfetto Client
-API under include/perfetto/tracing. 
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f6f5976c102f3925e4bef19b679b1a6e95fce3a47efff91e746d21fb6ac3f39
+size 189
